@@ -27,11 +27,14 @@ avatar
 ## Example
 I ask to openai "How are you?"
 
-OPENAI reply 
+OPENAI reply : <h3><b>I am AI Assistant I don't have feelings. How can I assist you today? </b></h3>
 
-<video width="320" height="240" controls>
-  <source src="assets/image_input.mp4" type="video/mp4">
-</video>
+
+Video is in assets.
+
+
+![Video](assets/image_input.gif)
+
 
 
 # ----------------------------- OR ---------------------------------------------------
