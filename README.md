@@ -1,5 +1,8 @@
 # Chat with Avatar
-
+```bash
+git clone https://github.com/Drwaish/TalkingAvatar
+cd TalkingAvatar
+```
 ## Install Dependencies
 
 ```bash
@@ -7,17 +10,28 @@ pip install -r requirements.txt
 ```
 - Python 3.10.12 , Pytorch >= 1.6 and ffmpeg
 
-
-  
-
 #### Pretrained Checkpoint
-
-Please download the pretrained checkpoint from [google-drive](https://drive.google.com/file/d/1tvI43ZIrnx9Ti2TpFiEO4dK5DOwcECD7/view?usp=sharing) and put it within the folder (`/checkpoints`).
-
+```bash
+cd checkpoints
+wget https://github.com/Drwaish/TalkingAvatar/releases/download/v1/audio2head.pth.tar
+cd ..
+```
 
 ## Change Avatar
 If you want to change the avatar repalce image with desired avatar image in avatar folder.
 Note : Keep name same as previous image.
+```
+avatar
+    |---- image.jpg
+```
+## Example
+I ask to openai "How are you?"
+
+OPENAI reply 
+
+<video width="320" height="240" controls>
+  <source src="assets/image_input.mp4" type="video/mp4">
+</video>
 
 
 # ----------------------------- OR ---------------------------------------------------
